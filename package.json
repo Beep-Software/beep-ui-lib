@@ -1,16 +1,22 @@
 {
   "name": "beep-ui-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small UI component library",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --dts",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["ui", "components", "library"],
+  "keywords": [
+    "ui",
+    "components",
+    "library"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "type": "module",
